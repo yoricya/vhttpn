@@ -1,4 +1,4 @@
-# VHttpNSrv
+# VHttpN
 
 VHttpN — минималистичная библиотека для создания HTTP-сервера на VLang.
 
