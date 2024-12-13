@@ -11,7 +11,7 @@ pub mut:
 	remote_addr net.Addr
 }
 
-fn listen(addr_type net.AddrFamily, addr string, callback fn (mut VHttpnConnection)) ! {
+pub fn listen(addr_type net.AddrFamily, addr string, callback fn (mut VHttpnConnection)) ! {
 	// Create server
 	mut server := net.listen_tcp(addr_type, addr) or { return err }
 
